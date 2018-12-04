@@ -1,0 +1,28 @@
+/* .nav-link{
+	display: inline;
+	float: left;
+} */
+
+body{
+	background-color: #5745B6;
+}
+
+#logo-menu{
+	width: 150px;
+	height: 100px;
+}
+
+#logo-footer{
+	width: 100px;
+	height: 55px;
+}
+
+#footer{
+	background-color: #393D42;
+	clear: both;
+}
+
+#redes{
+	float: left;
+}
+
