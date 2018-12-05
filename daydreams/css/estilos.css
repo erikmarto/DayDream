@@ -1,12 +1,3 @@
-/* .nav-link{
-	display: inline;
-	float: left;
-} */
-
-body{
-	background-color: #5745B6;
-}
-
 #logo-menu{
 	width: 150px;
 	height: 100px;
@@ -24,5 +15,13 @@ body{
 
 #redes{
 	float: left;
+}
+
+.card{
+	border: none;
+}
+.card-img-top{
+	width: 320px;
+	height: 220px;
 }
 
