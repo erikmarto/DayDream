@@ -17,6 +17,10 @@
 	height: 80px;
 }
 
+#redes{
+	float: right;
+}
+
 .center{
 	margin: 20px auto 0 auto;
 	display: block;
