@@ -1,3 +1,7 @@
+.titulos{
+	text-align: center;
+}
+
 #logo-menu{
 	width: 150px;
 	height: 100px;
@@ -5,23 +9,39 @@
 
 #logo-footer{
 	width: 100px;
-	height: 55px;
 }
 
-#footer{
+.footer{
 	background-color: #393D42;
 	clear: both;
+	height: 80px;
 }
 
-#redes{
-	float: left;
+.center{
+	margin: 20px auto 0 auto;
+	display: block;
+}
+
+.contacto{
+	margin-top: 10%;
 }
 
 .card{
 	border: none;
 }
+
 .card-img-top{
 	width: 320px;
 	height: 220px;
 }
 
+#copyright{
+	color: white;
+	margin-top: 10%;
+    margin-bottom: 0px;
+}
+
+.icono{
+	color: white;
+	font-size: 2em;
+}

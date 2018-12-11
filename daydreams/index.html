@@ -22,6 +22,8 @@
 	<meta charset="UTF-8">
 	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
 	 crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" 
+	 crossorigin="anonymous">
 	<link rel="stylesheet" href="css/all.css">
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="css/estilos.css">
@@ -89,24 +91,22 @@
 
 	<!--Descripcion de la empresa-->
 	<div class="container-fluid mt-5">
-		<div class="container">
-			<div class="row">
-				<div class="col-4">Imagen</div>
-				<div class="col-8 text-center">
-					<h3 class="mb-5">Por qué confiar en nosotros</h3>
-					<div class="row">
-						<div class="col-4">
-							<h4>Veteranos</h4>
-							<p>Gracias a nuestros clientes llevamos mas de 10 años y sabemos lo que nos hacemos</p>
-						</div>
-						<div class="col-4">
-							<h4>Minimalistas</h4>
-							<p>Cuidamos hasta el ultimo detalle. Ahí es donde esta la diferencia</p>
-						</div>
-						<div class="col-4">
-							<h4>Imaginativos</h4>
-							<p>Damos rienda suelta a nuestra imaginacion para crear el mejor evento posible</p>
-						</div>
+		<div class="row">
+			<div class="col-4">Imagen</div>
+			<div class="col-8 text-center">
+				<h3>Por qué confiar en nosotros</h3>
+				<div class="row">
+					<div class="col-4">
+						<h4>Veteranos</h4>
+						<p>Gracias a nuestros clientes llevamos mas de 10 años y sabemos lo que nos hacemos</p>
+					</div>
+					<div class="col-4">
+						<h4>Minimalistas</h4>
+						<p>Cuidamos hasta el ultimo detalle. Ahí es donde esta la diferencia</p>
+					</div>
+					<div class="col-4">
+						<h4>Imaginativos</h4>
+						<p>Damos rienda suelta a nuestra imaginacion para crear el mejor evento posible</p>
 					</div>
 				</div>
 			</div>
@@ -117,34 +117,42 @@
 	<div class="container-fluid mt-5">
 		<div class="row ">
 			<div class="col-4">
-				<h3 class="mb-5">Contactanos</h3>
-				<p><img src="img/iconos/map.svg" alt="" width="32px" height="32px" class="mr-3"> Valencia c/Campbell-16</p>
-				<br>
-				<p><img src="img/iconos/envelope.svg" alt="" width="32px" height="32px" class="mr-3"> hola@daydreams.com</p>
-				<br>
-				<p><img src="img/iconos/phone.svg" alt="" width="32px" height="32px" class="mr-3"> +34 666 666 666</p>
+				<h3 class="titulos">Contactanos</h3>
+				<div class="row contacto">
+					<img src="img/iconos/map.svg" alt="" width="32px" height="32px" class="col-md-4">
+					<p class="col-md-6">Valencia c/Campbell-16</p>
+				</div>
+				<div class="row contacto">
+					<img src="img/iconos/envelope.svg" alt="" width="32px" height="32px" class="col-md-4">
+					<p class="col-md-6">hola@daydreams.com</p>
+				</div>
+				<div class="row contacto">
+					<img src="img/iconos/phone.svg" alt="" width="32px" height="32px" class="col-md-4">
+					<p class="col-md-6">+34 666 666 666</p>
+				</div>
+
 			</div>
 			<div class="col-8">
 				<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d12317.39225773755!2d-0.3570695939941404!3d39.484054482261264!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2ses!4v1543394602710"
-				 width="800" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+				 width="80%" height="400" frameborder="0" style="border:0" allowfullscreen class="center"></iframe>
 			</div>
 		</div>
 	</div>
 
 	<!--Footer-->
-	<div class="container-fluid navbar-dark mt-5" id="footer">
-		<div class="row">
-			<div class="col-4">
+	<div class="container-fluid navbar-dark mt-5">
+		<div class="row footer">
+			<div class="col-4 m-auto">
 				<img src="img/logo.png" id="logo-footer" alt="">
 			</div>
-			<div class="col-4 m-auto">
-				<p>DayDreams 2018(R)</p>
+			<div class="col-4 m-auto text-center">
+				<p id="copyright">DayDream 2018(R)</p>
 			</div>
-			<div class="col-4 m-auto" id="redes">
+			<div class="col-4 m-auto text-center" id="redes">
 				<div class="row">
-					<div class="col-4"><a href="#">Face</a></div>
-					<div class="col-4">twitter</div>
-					<div class="col-4">insta</div>
+					<div class="col-4 fab fa-facebook-f icono"></div>
+					<div class="col-4 fab fa-twitter icono"></div>
+					<div class="col-4 fab fa-instagram icono"></div>
 				</div>
 			</div>
 		</div>
