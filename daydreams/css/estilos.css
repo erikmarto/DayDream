@@ -1,20 +1,33 @@
+.titulos{
+	text-align: center;
+}
+
 #logo-menu{
-	width: 150px;
-	height: 100px;
+	width: 130px;
+	height: 80px;
 }
 
 #logo-footer{
 	width: 100px;
-	height: 55px;
 }
 
-#footer{
+.footer{
 	background-color: #393D42;
 	clear: both;
+	height: 80px;
 }
 
 #redes{
-	float: left;
+	float: right;
+}
+
+.center{
+	margin: 20px auto 0 auto;
+	display: block;
+}
+
+.contacto{
+	margin-top: 10%;
 }
 
 .card{
@@ -30,3 +43,17 @@
 	height: 220px;
 }
 
+#copyright{
+	color: white;
+	margin-top: 10%;
+    margin-bottom: 0px;
+}
+
+.icono{
+	color: white;
+	font-size: 2em;
+}
+
+.presupuesto{
+	border: 1px black solid;
+}
