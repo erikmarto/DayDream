@@ -10,14 +10,21 @@
 }
 
 /*Sonorizacion*/
-
-/*Iluminacion*/
-
-/*Eventos*/
-.morado{
-	color: #673AB7;
+.img-sonz-top{
+	width: 70%;
 }
 
+.img-sonz-bot{
+	width: 46%;
+}
+
+/*Iluminacion*/
+.img-ilum{
+	width: 80%;
+	height: 70%;
+}
+
+/*Eventos*/
 .eventos-img{
 	width: 100%;
 }
@@ -25,32 +32,19 @@
 .txt-just{
 	text-align: justify;
 }
-/* .pad-img{
-	padding: 0%;
-} 
-.pad-d{
-	padding-right: 0% !important;
-}
-
-.pad-i{
-	padding-left: 0% !important;
-}*/
-
-.boton-ev{
-	text-decoration: none !important;
-	color: black;
-	background-color: #efb810;
-}
 
 /*Estructuras*/
 .icono-des{
 	color: #efb810;
 	font-size: 4em;
 }
+
 .gal-img{
 	width: 100%;
 	height: 80%;
 }
+
+
 /*TODO*/
 .presupuesto{
 	border: 1px black solid;
@@ -62,26 +56,10 @@
 }
 
 
-
 /*Contacto*/
 .contacto{
 	margin-top: 10%;
 }
-
-.card{
-	border: none;
-}
-
-.img-fluid{
-	width: 320px;
-	height: 220px;
-}
-
-.card-img-top{
-	width: 320px;
-	height: 220px;
-}
-
 
 .icono-contacto{
 	font-size: 2em;
