@@ -1,12 +1,12 @@
 /*Logos*/
 #logo-menu{
-	width: 80%;
+	width: 70%;
 	height: 20%;
 }
 
 #logo-footer{
-	width: 20%;
-	margin-left: 1.5%;
+	width: 22%;
+	margin-top: 3%;
 }
 
 /*Sonorizacion*/
@@ -62,7 +62,7 @@
 }
 
 .icono-contacto{
-	font-size: 2em;
+	font-size: 2.5em;
 }
 
 /*Footer*/
@@ -70,8 +70,7 @@
 	background-color: #393D42;
 }
 
-.min-footer{
-	background-color: #393D42;
+.min-footer{ /*especial*/
 	position: absolute;
 	bottom: 0;
 	width: 100%;
@@ -79,11 +78,12 @@
 
 #copyright{
 	color: white;
-	margin-top: 10%;
+	margin-top: 1%;
     margin-bottom: 0px;
 }
 
 #redes{
+	margin-top: 3%;
 	float: right;
 }
 
@@ -92,3 +92,49 @@
 	font-size: 2em;
 }
 
+@media (max-width: 768px) {
+
+	.img-sonz-bot{
+		width: 70%;
+	}
+
+	.outWidth{
+		width: 50% !important;
+	}
+	
+	.icono-footer{
+		font-size: 1.4em;
+	}
+
+	.prueba{
+		width: 35% !important;
+	}
+	
+	.contacto{
+		margin-top:5%; 
+	}
+}
+
+/* @media (min-width: 768px) and (max-width: 1172px)  {
+
+	.min-footer-pant{ 
+		position: absolute;
+		bottom: 0;
+		width: 100%;
+	}
+
+} */
+@media (max-width: 576px) {
+
+	body{
+		font-size: 70%;
+	}
+
+	.icono-contacto{
+		font-size: 200%;
+	}
+
+	.icono-footer{
+		font-size: 150%;
+	}
+}
