@@ -46,6 +46,15 @@
 
 
 /*TODO*/
+img.zoom {
+    -webkit-transition: all .2s ease-in-out;
+}
+ 
+.transition {
+    transform: scale(1.2);
+}
+
+
 .presupuesto{
 	border: 1px black solid;
 }
