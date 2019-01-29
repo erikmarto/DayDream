@@ -161,15 +161,15 @@ sup {
 }
 
 a {
-  color: #673AB7;
+  color: #007bff;
   text-decoration: none;
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
 }
 
 a:hover {
-  color: #673AB7 !important;
-  text-decoration: none;
+  color: #0056b3;
+  text-decoration: underline;
 }
 
 a:not([href]):not([tabindex]) {
@@ -5491,7 +5491,7 @@ button.close {
 
 @media (min-width: 576px) {
   .modal-dialog {
-    max-width: 600px;
+    max-width: 500px;
     margin: 1.75rem auto;
   }
   .modal-dialog-centered {

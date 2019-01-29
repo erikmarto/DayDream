@@ -9,7 +9,7 @@
 	margin-top: 3%;
 }
 
-/*Sonorizacion*/
+/*Sonorización*/
 .img-sonz-top{
 	width: 70%;
 }
@@ -18,7 +18,7 @@
 	width: 46%;
 }
 
-/*Iluminacion*/
+/*Iluminación*/
 .img-ilum{
 	width: 80%;
 	height: 70%;
@@ -50,22 +50,13 @@
 
 .gal-img{
 	width: 100%;
-	height: 80%;
 }
 
+.gal{
+	height: 85%;
+}
 
 /*TODO*/
-
-/*ampliar imagen*/
-img.zoom {
-    -webkit-transition: all .2s ease-in-out;
-}
- 
-.transition {
-    transform: scale(1.2);
-}
-
-
 .presupuesto{
 	border: 1px black solid;
 }
@@ -87,7 +78,7 @@ img.zoom {
 
 /*Footer*/
 .footer{
-	background-color: #393D42;
+	background-color: #343a40;
 }
 
 .min-footer{ /*especial*/
@@ -135,15 +126,6 @@ img.zoom {
 	}
 }
 
-/* @media (min-width: 768px) and (max-width: 1172px)  {
-
-	.min-footer-pant{ 
-		position: absolute;
-		bottom: 0;
-		width: 100%;
-	}
-
-} */
 @media (max-width: 576px) {
 
 	body{

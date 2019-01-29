@@ -24,17 +24,22 @@
 	<meta name="msapplication-TileColor" content="#ffffff">
 	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
 	<meta name="theme-color" content="#ffffff">
+
+	<!--Viewport/UTF-8-->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta charset="UTF-8">
-	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-	 crossorigin="anonymous"></script>
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
-	 crossorigin="anonymous">
-	<link rel="stylesheet" href="css/all.css">
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+
+	<!--CSS-->
+	<!-- Bootstrap core -->
 	<link rel="stylesheet" href="css/bootstrap.css">
+	<!-- Material Design Bootstrap -->
+	<link rel="stylesheet" href="mdb/css/mdb.css">
+	<!-- Personal Design-->
 	<link rel="stylesheet" href="css/estilos.css">
-	<script type="text/JavaScript" src="js/prueba.js"></script>
-	<title>Day-Dream</title>
+	<title>Sonorización</title>
+</head>
 </head>
 
 <body>
@@ -75,21 +80,27 @@
 	<div class="container-fluid text-center">
 		<div class="row mt-5">
 			<div class="col-md-4">
-				<img src="img/sonorizacion/sono1.jpeg" alt="" class="img-sonz-top zoom">
+				<div class="overlay zoom">
+					<img src="img/sonorizacion/sono1.jpeg" class="img-sonz-top zoom" title="Cualquier Estilo de Música" alt="Estilo">
+				</div>
 				<div class="card-body">
 					<h5 class="card-title">Estilo</h5>
 					<p class="card-text">Esto es una salvajada de equipo</p>
 				</div>
 			</div>
 			<div class="col-md-4">
-				<img src="img/sonorizacion/sono2.jpeg" alt="" class="img-sonz-top zoom">
+				<div class="overlay zoom">
+					<img src="img/sonorizacion/sono2.jpeg" class="img-sonz-top zoom" title="Calidad de Adución" alt="Calidad">
+				</div>
 				<div class="card-body">
 					<h5 class="card-title">Calidad de audio</h5>
 					<p class="card-text">Esto es una salvajada de equipo</p>
 				</div>
 			</div>
 			<div class="col-md-4">
-				<img src="img/sonorizacion/sono3.jpeg" alt="" class="img-sonz-top zoom">
+				<div class="overlay zoom">
+					<img src="img/sonorizacion/sono3.jpeg" class="img-sonz-top zoom" title="Alta Potencia Marshall" alt="Potencia">
+				</div>
 				<div class="card-body">
 					<h5 class="card-title">Potencia</h5>
 					<p class="card-text">Esto es una salvajada de equipo</p>
@@ -98,14 +109,18 @@
 		</div>
 		<div class="row mt-3">
 			<div class="col-md-6">
-				<img src="img/sonorizacion/sono4.jpeg" alt="" class="img-sonz-bot zoom">
+				<div class="overlay zoom">
+					<img src="img/sonorizacion/sono4.jpeg" class="img-sonz-bot zoom" title="Equipos Extremadamente Buenos" alt="Equipos">
+				</div>
 				<div class="card-body">
 					<h5 class="card-title">Equipos</h5>
 					<p class="card-text">Esto es una salvajada de equipo</p>
 				</div>
 			</div>
 			<div class="col-md-6">
-				<img src="img/sonorizacion/sono5.jpeg" alt="" class="img-sonz-bot zoom">
+				<div class="overlay zoom">
+					<img src="img/sonorizacion/sono5.jpeg" class="img-sonz-bot zoom" title="Grandes/Pequeños Conciertos" alt="Tamaño">
+				</div>
 				<div class="card-body">
 					<h5 class="card-title">Tamaño</h5>
 					<p class="card-text">Esto es una salvajada de equipo</p>
@@ -114,8 +129,6 @@
 		</div>
 	</div>
 
-
-
 	<hr>
 
 	<!--Zona de contacto-->
@@ -123,15 +136,15 @@
 		<h3 class="text-center mb-5">Contactanos</h3>
 		<div class="row ">
 			<div class="col-4 text-center">
-				<p class="fas fa-map-marker-alt icono-contacto mb-3"></p>
+				<p class="fas fa-map-marker-alt icono-contacto mb-3" title="Ubicación"></p>
 				<p>Valencia c/Campbell-16</p>
 			</div>
 			<div class="col-4 text-center">
-				<p class="fas fa-envelope icono-contacto mb-3"></p>
-				<p>main@daydreams.com / info@daydream.com</p>
+				<p class="fas fa-envelope icono-contacto mb-3" title="E-mail"></p>
+				<p>info@day-dream.com</p>
 			</div>
 			<div class="col-4 text-center">
-				<p class="fas fa-phone icono-contacto mb-3"></p>
+				<p class="fas fa-phone icono-contacto mb-3" title="Teléfono"></p>
 				<p>+34 666 666 666</p>
 			</div>
 		</div>
@@ -141,24 +154,32 @@
 	<div class="container-fluid navbar-dark mt-5 footer">
 		<div class="row">
 			<div class="col-md-4 m-auto outWidth">
-				<img src="img/logo.png" id="logo-footer" alt="LogoPequeño">
+				<img src="img/logo.png" id="logo-footer" title="Logo-Empresa" alt="LogoPequeño">
 			</div>
 			<div class="col-md-4 m-auto outWidth">
 				<div class="row" id="redes">
-					<a class="col-4 fab fa-facebook-f icono-footer" href="https://es-es.facebook.com/"></a>
-					<a class="col-4 fab fa-twitter icono-footer" href="https://twitter.com/?lang=es"></a>
-					<a class="col-4 fab fa-instagram icono-footer" href="https://www.instagram.com/"></a>
+					<a class="col-4 fab fa-facebook-f icono-footer" href="https://es-es.facebook.com/" title="Facebook"></a>
+					<a class="col-4 fab fa-twitter icono-footer" href="https://twitter.com/?lang=es" title="Twitter"></a>
+					<a class="col-4 fab fa-instagram icono-footer" href="https://www.instagram.com/" title="Instagram"></a>
 				</div>
 			</div>
 		</div>
 		<div class="row">
 			<div class="col-md-4 m-auto text-center">
-				<p id="copyright">DayDream 2018/19 (R)</p>
+				<p id="copyright" title="Privacidad">DayDream 2018/19 (R)</p>
 			</div>
 		</div>
 	</div>
 
-	<script src="bootstrap/js/bootstrap.js"></script>
+	<!-- SCRIPTS -->
+	<!-- JQuery -->
+	<script type="text/javascript" src="mdb/js/jquery-3.3.1.min.js"></script>
+	<!-- Bootstrap tooltips -->
+	<script type="text/javascript" src="mdb/js/popper.min.js"></script>
+	<!-- Bootstrap core JavaScript -->
+	<script type="text/javascript" src="mdb/js/bootstrap.min.js"></script>
+	<!-- MDB core JavaScript -->
+	<script type="text/javascript" src="mdb/js/mdb.min.js"></script>
 </body>
 
 </html>
