@@ -1,12 +1,9 @@
 <!DOCTYPE html>
+
 <html lang="en">
 
 <head>
-    <!--
-        ------------------------------------
-        TODO Cambiar los enlaces y ordenarlo
-        ------------------------------------
-    -->
+    <!-- Favicons -->
     <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
@@ -24,26 +21,30 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta charset="UTF-8">
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-        crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
-        crossorigin="anonymous">
-    <link rel="stylesheet" href="css/all.css">
-    <link rel="stylesheet" href="css/bootstrap.css">
+    
+    <!-- Viewport/UTF-8 -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="UTF-8">
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+
+	<!-- CSS -->
+	<!-- Bootstrap core -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<!-- Personal Design -->
     <link rel="stylesheet" href="css/estilos.css">
-    <title>Day-Dream</title>
+    
+    <title>Eventos</title>
 </head>
 
 <body>
-    <!--Menu con logotipo-->
+    <!-- Menu con Logotipo -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <a href="index.html" class="navbar-brand">
-            <img src="img/logo.png" id="logo-menu" alt="">
+            <img src="img/logo.png" id="logo-menu" title="Logo-Empresa" alt="LogoGrande">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
-            aria-expanded="false" aria-label="Toggle navigation">
+         aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
@@ -70,11 +71,11 @@
         </div>
     </nav>
 
-    <!--Contenido Pagina-->
+    <!-- Contenido Página -->
     <div class="container-fluid mt-3 text-center">
         <div class="row">
             <div class="col-6">
-                <img src="img/eventos/eventos1.jpg" class="eventos-img" alt="DREAMBEACH">
+                <img src="img/eventos/eventos1.jpg" class="eventos-img" title="Dreambeach Festival" alt="DREAMBEACH 2018">
             </div>
             <div class="col-6">
                 <h3 class="mt-3">DREAMBEACH</h3>
@@ -103,54 +104,60 @@
                 <a href="contacto.html"><button class="btn btn-outline-warning">Saber más</button></a>
             </div>
             <div class="col-6">
-                <img src="img/eventos/eventos2.jpg" class="eventos-img" alt="MEDUSA">
+                <img src="img/eventos/eventos2.jpg" class="eventos-img" title="Medusa Festival" alt="MEDUSA 2018">
             </div>
         </div>
     </div>
 
     <hr>
 
-    <!--Zona de contacto-->
-	<div class="container-fluid mt-5">
-		<h3 class="text-center mb-5">Contactanos</h3>
-		<div class="row ">
-			<div class="col-4 text-center">
-				<p class="fas fa-map-marker-alt icono-contacto mb-3"></p>
-				<p>Valencia c/Campbell-16</p>
-			</div>
-			<div class="col-4 text-center">
-				<p class="fas fa-envelope icono-contacto mb-3"></p>
-				<p>main@daydreams.com / info@daydream.com</p>
-			</div>
-			<div class="col-4 text-center">
-				<p class="fas fa-phone icono-contacto mb-3"></p>
-				<p>+34 666 666 666</p>
-			</div>
-		</div>
-	</div>
+    <!-- Zona de Contacto -->
+    <div class="container-fluid mt-5">
+        <h3 class="text-center mb-5">Contactanos</h3>
+        <div class="row ">
+            <div class="col-4 text-center">
+                <p class="fas fa-map-marker-alt icono-contacto mb-3" title="Ubicación"></p>
+                <p>Valencia c/Campbell-16</p>
+            </div>
+            <div class="col-4 text-center">
+                <p class="fas fa-envelope icono-contacto mb-3" title="E-mail"></p>
+                <p>info@day-dream.com</p>
+            </div>
+            <div class="col-4 text-center">
+                <p class="fas fa-phone icono-contacto mb-3" title="Teléfono"></p>
+                <p>+34 666 666 666</p>
+            </div>
+        </div>
+    </div>
 
-    	<!--Footer-->
-	<div class="container-fluid navbar-dark mt-5 footer">
-		<div class="row">
-			<div class="col-md-4 m-auto outWidth">
-				<img src="img/logo.png" id="logo-footer" alt="LogoPequeño">
-			</div>
-			<div class="col-md-4 m-auto outWidth">
-				<div class="row" id="redes">
-					<a class="col-4 fab fa-facebook-f icono-footer" href="https://es-es.facebook.com/"></a>
-					<a class="col-4 fab fa-twitter icono-footer" href="https://twitter.com/?lang=es"></a>
-					<a class="col-4 fab fa-instagram icono-footer" href="https://www.instagram.com/"></a>
-				</div>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-md-4 m-auto text-center">
-				<p id="copyright">DayDream 2018/19 (R)</p>
-			</div>
-		</div>
-	</div>
+    <!-- Footer -->
+    <div class="container-fluid navbar-dark mt-5 footer">
+        <div class="row">
+            <div class="col-md-4 m-auto outWidth">
+                <img src="img/logo.png" id="logo-footer" title="Logo-Empresa" alt="LogoPequeño">
+            </div>
+            <div class="col-md-4 m-auto outWidth">
+                <div class="row" id="redes">
+                    <a class="col-4 fab fa-facebook-f icono-footer" href="https://es-es.facebook.com/" title="Facebook"></a>
+                    <a class="col-4 fab fa-twitter icono-footer" href="https://twitter.com/?lang=es" title="Twitter"></a>
+                    <a class="col-4 fab fa-instagram icono-footer" href="https://www.instagram.com/" title="Instagram"></a>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 m-auto text-center">
+                <p id="copyright" title="Privacidad">DayDream 2018/19 (R)</p>
+            </div>
+        </div>
+    </div>
 
-	<script src="bootstrap/js/bootstrap.js"></script>
+    <!-- SCRIPTS -->
+    <!-- JQuery -->
+    <script type="text/javascript" src="mdb/js/jquery-3.3.1.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="mdb/js/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="mdb/js/bootstrap.min.js"></script>
 </body>
 
 </html>

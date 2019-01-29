@@ -1,12 +1,9 @@
 <!DOCTYPE html>
+
 <html lang="en">
 
 <head>
-    <!--
-        ------------------------------------
-        TODO Cambiar los enlaces y ordenarlo
-        ------------------------------------
-    -->
+    <!-- Favicons -->
     <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
@@ -24,23 +21,27 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
+
+    <!-- Viewport/UTF-8 -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8">
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-        crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
-        crossorigin="anonymous">
-    <link rel="stylesheet" href="css/all.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+
+    <!-- CSS -->
+    <!-- Bootstrap core -->
     <link rel="stylesheet" href="css/bootstrap.css">
+    <!-- Personal Design -->
     <link rel="stylesheet" href="css/estilos.css">
-    <title>Day-Dream</title>
+
+    <title>Contacto</title>
 </head>
 
 <body>
-    <!--Menu con logotipo-->
+    <!-- Menu con Logotipo -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <a href="index.html" class="navbar-brand">
-            <img src="img/logo.png" id="logo-menu" alt="">
+            <img src="img/logo.png" id="logo-menu" title="Logo-Empresa" alt="LogoGrande">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
             aria-expanded="false" aria-label="Toggle navigation">
@@ -70,31 +71,32 @@
         </div>
     </nav>
 
-    <div class="container m-auto">
+    <!-- Formulario Contacto -->
+    <div class="container mt-5">
         <h2>Solicitud de Presupuesto</h2>
         <form method="POST">
             <div class="row">
-                <div class="col col-md-4">
+                <div class="col col-md-6">
                     <label for="nombre">Nombre </label>
                     <input type="text" id="nombre" class="form-control" name="nombre" value=>
                 </div>
-                <div class="col col-md-4">
+                <div class="col col-md-6">
                     <label for="email">Apellidos </label>
                     <input id="apellidos" class="form-control" name="apellidos" value=>
                 </div>
             </div>
             <div class="row">
-                <div class="col col-md-4">
+                <div class="col col-md-6">
                     <label for="email">Email </label>
                     <input id="email" class="form-control" name="email" value=>
                 </div>
-                <div class="col col-md-4">
+                <div class="col col-md-6">
                     <label for="email">Repetir Email </label>
                     <input id="email2" class="form-control" name="email" value=>
                 </div>
             </div>
             <div class="row">
-                <div class="col col-md-8">
+                <div class="col col-md-12">
                     <label for="observ">Descripción: </label>
                     <textarea id="observ" class="form-control" rows="5" name="observaciones"></textarea>
                 </div>
@@ -109,7 +111,7 @@
             </div>
             <div class="row">
                 <div class="col col-md-4">
-                    <input type="submit" class="btn btn-large btn-primary" name="enviar" value="Enviar">
+                    <input type="submit" class="btn btn-large btn-outline-warning" name="enviar" value="Enviar">
                 </div>
             </div>
         </form>
@@ -117,27 +119,32 @@
 
 
 
-    <!--Footer-->
+    <!-- Footer -->
     <div class="container-fluid navbar-dark mt-5 footer min-footer">
         <div class="row">
             <div class="col-md-4 m-auto outWidth">
-                <img src="img/logo.png" id="logo-footer" alt="LogoPequeño">
+                <img src="img/logo.png" id="logo-footer" title="Logo-Empresa" alt="LogoPequeño">
             </div>
             <div class="col-md-4 m-auto outWidth">
                 <div class="row" id="redes">
-                    <a class="col-4 fab fa-facebook-f icono-footer" href="https://es-es.facebook.com/"></a>
-                    <a class="col-4 fab fa-twitter icono-footer" href="https://twitter.com/?lang=es"></a>
-                    <a class="col-4 fab fa-instagram icono-footer" href="https://www.instagram.com/"></a>
+                    <a class="col-4 fab fa-facebook-f icono-footer" href="https://es-es.facebook.com/" title="Facebook"></a>
+                    <a class="col-4 fab fa-twitter icono-footer" href="https://twitter.com/?lang=es" title="Twitter"></a>
+                    <a class="col-4 fab fa-instagram icono-footer" href="https://www.instagram.com/" title="Instagram"></a>
                 </div>
             </div>
         </div>
         <div class="row">
             <div class="col-md-4 m-auto text-center">
-                <p id="copyright">DayDream 2018/19 (R)</p>
+                <p id="copyright" title="Privacidad">DayDream 2018/19 (R)</p>
             </div>
         </div>
     </div>
 
-    <script src="bootstrap/js/bootstrap.js"></script>
+    <!-- SCRIPTS -->
+    <!-- JQuery -->
+    <script type="text/javascript" src="mdb/js/jquery-3.3.1.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="mdb/js/popper.min.js"></script>
 </body>
+
 </html>
