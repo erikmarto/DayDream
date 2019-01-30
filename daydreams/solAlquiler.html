@@ -150,7 +150,7 @@
                                             <div class="row">
                                                 <div class="col-sm-10">
                                                     <select name="metodoPago" id="metodoPago">
-                                                        <option value="">--Elige opcion--</option>
+                                                        <option value="nada">--Elige opcion--</option>
                                                         <option value="tarjeta">Tarjeta de credito</option>
                                                         <option value="paypal">Paypal</option>
                                                     </select>
@@ -199,18 +199,19 @@
                                                             Fiesta</td>
                                                     </tr>
                                                     <tr>
-                                                        <td><select name="os0">
+                                                        <td><select name="os0" id="opcionesPaypal">
                                                                 <option value="Pack Bronce">Pack Bronce €99,00 EUR</option>
                                                                 <option value="Pack Plata">Pack Plata €199,00 EUR</option>
                                                                 <option value="Pack Oro">Pack Oro €389,00 EUR</option>
                                                             </select> </td>
                                                     </tr>
                                                 </table>
+                                                <br>
                                                 <input type="hidden" name="currency_code" value="EUR">
                                                 <input type="image" src="https://www.paypalobjects.com/es_ES/ES/i/btn/btn_buynowCC_LG.gif"
                                                     border="0" name="submit" alt="PayPal, la forma rápida y segura de pagar en Internet.">
                                                 <img alt="" border="0" src="https://www.paypalobjects.com/es_ES/i/scr/pixel.gif"
-                                                    width="1" height="1">
+                                                    width="1" height="1" href="https://www.paypal.com/cgi-bin/websrc?cmd=_s-xclock&hosted_button_id=VU49VYXJQL">
                                             </form>
                                         </div>
                                     </div>
@@ -218,7 +219,7 @@
                                 </div>
                                 <div class="modal-footer">
                                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                    <button type="button" class="btn btn-success">Pagar</button>
+                                    <button type="button" class="btn btn-success" class="pagarModal">Pagar</button>
                                 </div>
                             </div>
                         </div>
@@ -308,7 +309,7 @@
                         <strong class="precioCarrito"></strong>
                     </li>
                 </ul>
-                <button type="submit" class="pagar btn btn-lg btn-outline-warning" data-toggle="modal" data-target="#pagoModal">Ir
+                <button type="submit" class="pagar btn btn-lg btn-outline-warning" data-toggle="modal" data-target="#pagoModal" disabled>Ir
                     a método
                     de pago</button>
             </div>
